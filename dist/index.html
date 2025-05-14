@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>El Carretón</title>
+  <!-- Enlazamos Tailwind compilado localmente -->
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Barra de navegación superior -->
+  <nav class="bg-green-600 text-white p-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <!-- Nombre del restaurante -->
+    <div class="flex items-center space-x-2">
+      <img src="imagenes del menu/logo.jpg" alt="Logo El Carretón" class="h-8 w-8 object-contain" />
+      <span class="text-xl font-bold">El Carretón</span>
+    </div>
+
+
+      <!-- Enlaces de navegación -->
+      <div class="space-x-4 text-sm">
+        <a href="#inicio" class="hover:underline">Inicio</a>
+        <a href="#menu" class="hover:underline">Menú</a>
+        <a href="#contacto" class="hover:underline">Contacto</a>
+      </div>
+    </div>
+  </nav>
+  </section>
+<!-- Sección de bienvenida -->
+<section id="inicio"
+  class="relative h-[500px] bg-[url('Ambiente/5.jpg')] bg-cover bg-center flex items-center justify-center text-white">
+
+  <!-- Capa semitransparente para que el texto se lea mejor -->
+  <div class="absolute inset-0 bg-black/50"></div>
+
+  <!-- Contenido del texto centrado -->
+  <div class="relative z-10 text-center px-4">
+    <h1 class="text-4xl font-bold mb-4 drop-shadow-md">
+      Bienvenidos al auténtico sabor del oriente
+    </h1>
+    <p class="mb-6 text-lg drop-shadow-sm">
+      Disfruta de la mejor comida típica del Beni, hecha con amor y tradición.
+    </p>
+    <a href="#menu" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-800 transition inline-block">
+      Ver Menú
+    </a>
+
+  </div>
+</section>
+
+
+ <!-- Sección de Historia -->
+<section id="inicio" class="p-8 bg-green-100">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <!-- Imagen a la izquierda -->
+    <div>
+      <img src="ambiente/4.jpg" alt="Historia de El Carretón" class="w-full h-auto rounded shadow">
+    </div>
+    <!-- Texto a la derecha -->
+    <div>
+      <h1 class="text-3xl font-bold mb-4 text-green-800">Historia</h1>
+      <p class="mb-4 text-lg text-gray-700">
+        El Carretón nació del sueño de una pareja beniana que decidió aportar a la ciudad de Trinidad algo que aún le faltaba: un restaurante con comida típica regional en un ambiente acogedor y auténtico.
+        Inspirados por las tradiciones culinarias del Beni, los dueños crearon un espacio donde los sabores, los olores y la calidez del oriente boliviano se sienten en cada bocado.
+      </p>
+    </div>
+  </div>
+</section>
+
+  <!-- Sección del menú (resumen) -->
+  <section id="menu" class="bg- bg-green-100 p-8 text-center">
+    <h2 class="text-2xl font-semibold mb-4 text-green-800">Platos destacados</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
+      <!-- Plato 1 -->
+      <div class="bg-white p-4 shadow rounded">
+        <img src="imagenes del menu/majadito.jpg" alt="majadito y charque" class="mb-2 rounded">
+        <h3 class="font-bold mb-1">Majadito</h3>
+        <p>Arroz con charque, huevo y plátano y chorizo.</p>
+        <p>Bs.25</p>
+      </div>
+      <!-- Plato 2 -->
+      <div class="bg-white p-4 shadow rounded">
+         <img src="imagenes del menu/Queperí.jpg" alt="Queperí" class="mb-2 rounded">
+        <h3 class="font-bold mb-1">Queperí</h3>
+        <p>Arroz con Queperí bien jugosito con carne de primera y plátanito verde. servidito para dos personas</p>
+        <p>Bs.70</p>
+        <p>.</p>
+      </div>
+      <!-- Plato 3 -->
+      <div class="bg-white p-4 shadow rounded">
+         <img src="imagenes del menu/charque.jpg" alt="charque" class="mb-2 rounded">
+        <h3 class="font-bold mb-1">charque</h3>
+        <p>arroz con charquesito y su platanito verde y chivecito. bien servidito  para dos personas</p>
+        <p>Bs.70</p>
+      </div>
+      <!-- Plato 4 -->
+      <div class="bg-white p-4 shadow rounded">
+         <img src="imagenes del menu/jarra de agua con chive para el charque y jjara de chichas.jpg" alt="jarra de agua chive para el charque y jjara de chichas" class="mb-2 rounded">
+        <h3 class="font-bold mb-1">jarra de refresco(chicha,limonada)</h3>
+        <p>jarrita de chicha o limonada bien fria.</p>
+    
+    </div>
+  </section>
+ <!-- Sección de menu los fines de semana (resumen) -->
+  <section id="menu" class="bg-green-100 p-8 text-center">
+    <h2 class="text-2xl font-semibold mb-4" >Platos Especiales los fines de semana</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
+      <!-- Plato 1 -->
+      <div class="bg-white p-4 shadow rounded">
+        <img src="imagenes del menu/lechón al horno.jpg" alt="lechón al horno" class="mb-2 rounded">
+        <h3 class="font-bold mb-1">lechón</h3>
+        <p>Arroz con su lechoncito bien servidito .</p>
+      </div>
+      
+      </div>
+<!-- Sección de Reservas -->
+<section id="reservas" class="py-20 bg-green-500">
+  <div class="container mx-auto px-4">
+    <div class="max-w-4xl mx-auto bg-green-50 rounded-xl shadow-lg overflow-hidden">
+      <div class="md:flex">
+        <!-- Lado izquierdo -->
+        <div class="md:w-1/2 bg-green-700 p-10 text-white flex flex-col justify-center">
+          <h2 class="font-playfair text-3xl font-bold mb-6">Reserva tu mesa</h2>
+          <p class="mb-6">Disfruta de una experiencia gastronómica única en un ambiente que rinde homenaje a las tradiciones del Beni.</p>
+          <div class="mb-6">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-phone-alt mr-4 text-xl"></i>
+              <span>+591 67718580</span>
+            </div>
+            <div class="flex items-center">
+              <i class="fas fa-envelope mr-4 text-xl"></i>
+              <span>reservas@elcarreton.com</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulario de reservas -->
+        <div class="md:w-1/2 p-10">
+          <form action="https://formspree.io/f/xwpoaola" method="POST">
+            <div class="mb-4">
+              <label for="name" class="block text-green-900 font-bold mb-2">Nombre completo</label>
+              <input type="text" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+            </div>
+            <div class="mb-4">
+              <label for="email" class="block text-green-900 font-bold mb-2">Correo electrónico</label>
+              <input type="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+            </div>
+            <div class="mb-4">
+              <label for="phone" class="block text-green-900 font-bold mb-2">Teléfono</label>
+              <input type="tel" name="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+              <div>
+                <label for="date" class="block text-green-900 font-bold mb-2">Fecha</label>
+                <input type="date" name="date" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+              </div>
+              <div>
+                <label for="time" class="block text-green-900 font-bold mb-2">Hora</label>
+                <input type="time" name="time" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+              </div>
+            </div>
+            <div class="mb-6">
+              <label for="guests" class="block text-green-900 font-bold mb-2">Número de personas</label>
+              <select name="guests" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+                <option>1 persona</option>
+                <option>2 personas</option>
+                <option>3 personas</option>
+                <option>4 personas</option>
+                <option>5+ personas</option>
+              </select>
+            </div>
+            <button type="submit" class="w-full bg-green-300 hover:bg-green-800 text-yellow font-bold py-3 px-4 rounded-lg transition duration-300">
+              Confirmar reserva
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Sección de ubicación con mapa -->
+<section class="p-8 bg-white text-center">
+  <h2 class="text-2xl font-semibold mb-4 text-green-800">¿Dónde estamos?</h2>
+  <p class="mb-4 text-gray-700">Encuéntranos en Chaparral II, Trinidad, Beni - Bolivia</p>
+  
+  <div class="w-full max-w-4xl mx-auto rounded overflow-hidden shadow-lg">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d607.5566928714945!2d-64.91221226458234!3d-14.817848023652523!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93dd71f215ceda97%3A0x321bb853b5bb807!2sEl%20Carret%C3%B3n!5e1!3m2!1ses-419!2sbo!4v1747156483590!5m2!1ses-419!2sbo"
+      width="100%" 
+      height="450" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade"
+      class="w-full h-[450px]">
+    </iframe>
+  </div>
+</section>
+
+
+<!-- Sección de Contacto y Horarios -->
+<section id="contacto" class="bg-green-600 text-white py-16">
+  <div class="container mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-12">
+      <h2 class="text-3xl font-bold font-playfair mb-4">Contacto</h2>
+      <p class="text-lg">¿Tienes alguna consulta o sugerencia? ¡Nos encantaría escucharte!</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Información de contacto -->
+      <div class="space-y-6">
+        <div class="flex items-start space-x-4">
+          <span class="text-2xl">📍</span>
+          <p>Barrio Chaparral II, al lado del aeropuerto de Trinidad.</p>
+        </div>
+        <div class="flex items-start space-x-4">
+          <span class="text-2xl">📞</span>
+          <p>+591 75894898</p>
+        </div>
+        <div class="flex items-start space-x-4">
+          <span class="text-2xl">✉️</span>
+          <p>info@elcarreton.com</p>
+        </div>
+      </div>
+
+      <!-- Horarios -->
+      <div>
+        <h3 class="text-2xl font-bold font-playfair mb-4">Horario de Atención</h3>
+        <ul class="space-y-3 text-white">
+          <li class="flex justify-between border-b border-white pb-2">
+            <span>Martes a jueves</span>
+            <span>5:00 p.m. – 11:00 p.m.</span>
+          </li>
+          <li class="flex justify-between border-b border-white pb-2">
+            <span>Viernes a domingo (mediodía)</span>
+            <span>11:00 a.m. – 4:00 p.m.</span>
+          </li>
+          <li class="flex justify-between">
+            <span>Viernes a domingo (noche)</span>
+            <span>5:00 p.m. – 11:00 p.m.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Pie de página -->
+  <footer class="bg-green-700 text-white text-center p-4 text-sm">
+    © 2025 Restaurante Beniano. Todos los derechos reservados a Valeria Tumiri Garcia y Josthin Fernando Semo Flores.
+  </footer>
+
+</body>
+</html>
